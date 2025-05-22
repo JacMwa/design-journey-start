@@ -28,7 +28,7 @@ const Footer = () => {
               <ArrowUp className="h-5 w-5" />
             </button>
             <p className="text-sm text-gray-400">
-              © {new Date().getFullYear()} Your Name. All rights reserved.
+              © {new Date().getFullYear()} Wanjiku Jackline. All rights reserved.
             </p>
           </div>
         </div>

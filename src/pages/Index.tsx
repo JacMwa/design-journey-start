@@ -11,7 +11,7 @@ import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const Index = () => {
   useEffect(() => {
-    // Update document title
+    
     document.title = "UI/UX Design Portfolio";
     
     // Simple scroll animation

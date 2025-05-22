@@ -75,7 +75,7 @@ const AboutSection = () => {
                       YP
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold">Your Name</h3>
+                  <h3 className="text-xl font-bold">Jackline Matindi</h3>
                   <p className="text-gray-600">UI/UX Designer</p>
                 </div>
                 

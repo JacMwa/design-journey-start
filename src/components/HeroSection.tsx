@@ -20,7 +20,10 @@ const HeroSection = () => {
                 View My Work <ArrowRight size={16} />
               </a>
             </Button>
+            
             <Button size="lg" variant="outline" className="border-portfolio-blue text-portfolio-blue hover:bg-portfolio-blue/10">
+            <a href="src/images/resume(2).pdf" download="resume(2).pdf"  target="_blank" rel="noopener noreferrer"     
+            ></a>
               <Download size={16} className="mr-2" /> Download Resume
             </Button>
           </div>
@@ -29,10 +32,12 @@ const HeroSection = () => {
           <div className="relative">
             <div className="bg-portfolio-accent/20 w-64 h-64 md:w-80 md:h-80 rounded-full absolute -top-6 -left-6 z-0"></div>
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-portfolio-blue to-portfolio-lightblue overflow-hidden shadow-xl z-10 relative">
-              {/* Replace with your image */}
+              {/*image*/}
               <div className="w-full h-full flex items-center justify-center text-white">
-                <span className="text-lg">Your Photo Here</span>
-              </div>
+  <span className="text-lg">
+    <img src="src/images/ja.jpg"  />
+  </span>
+</div>
             </div>
             <div className="absolute bottom-0 right-0 bg-white rounded-lg shadow-lg p-4 z-20">
               <p className="font-bold">3+ years</p>
