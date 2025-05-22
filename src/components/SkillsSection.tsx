@@ -2,7 +2,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { 
   Layers, Lightbulb, Users, Search, Layout, 
-  Paintbrush, PenTool, Monitor, LineChart, Check
+  Paintbrush, PenTool, Monitor, LineChart, Check,
+  ArrowRight
 } from "lucide-react";
 
 const SkillsSection = () => {
